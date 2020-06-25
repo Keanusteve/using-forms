@@ -1,0 +1,36 @@
+- using forms I can capture information from the individual completing the form using the following input types.
+I feel like most of these are pretty self-explanatory in what information each can be used for. 
+
+<input type="button">
+<input type="checkbox">
+<input type="color">
+<input type="date">
+<input type="datetime-local">
+<input type="email">
+<input type="file">
+<input type="hidden">
+<input type="image">
+<input type="month">
+<input type="number">
+<input type="password">
+<input type="radio">
+<input type="range">
+<input type="reset">
+<input type="search">
+<input type="submit">
+<input type="tel">
+<input type="text">
+<input type="time">
+<input type="url">
+<input type="week">
+
+- tags that help with input type would be label tags.
+ This allows the developer the ability to add text that correlates and appends to the form input fields. This text allows the form of participant 
+that ability to know what information each field is looking to capture. 
+
+- some tags are more beneficial to tan others when it comes to character validation. For example
+if you were looking to capture an email address you will want to use the <input type="email"> rather than text. It will look for email address formating to help make sure the correct information is being submitted. 
+Another example would be the <input type="datetime-local"> to make sure you are capturing a valid date and time. This prevents the user from sending over data in a way that is hard to interpret reducing future conflicts. 
+ 
+-to use the data programmatically, one would need to have a repository or data collection point set up to store the user data. 
+This may be done with the use of a local database file of even a collection of .txt files that can be cataloged.
